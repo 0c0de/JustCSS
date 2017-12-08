@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Framework Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Grid  -->
+    <div class="grid-demo">
+      <h1 class="center">Grid Example</h1>
+      <div class="row">
+        <div class="col-2" style="border: 2px solid black;"><p>17%</p></div>
+        <div class="col-3" style="border: 2px solid black;"><p>25%</p></div>
+        <div class="col-7" style="border: 2px solid black;"><p>58%</p></div>
+      </div>
+      <h1 class="center">This grid resizes using a resolution reference</h1>
+      <div class="row">
+        <div class="col-2 col-t-4" style="border: 2px solid black;"><p>17%</p></div>
+        <div class="col-3 col-t-5" style="border: 2px solid black;"><p>25%</p></div>
+        <div class="col-7 col-t-3" style="border: 2px solid black;"><p>58%</p></div>
+      </div>
+    </div>
+    <!-- Ended Grid -->
+    <!-- Utilities -->
+    <div id="utilities" class="row">
+      <h1 class="center">Utilities</h1>
+      <p class="center">Text centered</p>
+      <p class="left-align-text">Text aligned to left</p>
+      <p class="right-align-text">Text aligned to right</p>
+    </div>
+    <!-- End Utilities -->
+    <div class="forms row">
+      <h1 class="col-12 center">Forms components</h1>
+      <h3 class="col-12 center">Shadowed Buttons</h3>
+      <a class="col-2 col-t-5 center button-danger">Button Red</a>
+      <a class="col-2 col-t-5 center button-green">Button Green</a>
+      <a class="col-2 col-t-5 center button-warning">Button Orange</a>
+      <a class="col-2 col-t-5 center button-primary">Button Blue</a>
+
+      <h3 class="col-12 center">No shadowed Buttons</h3>
+      <a class="col-2 col-t-5 button-danger no-shadow">Button Red</a>
+      <a class="col-2 col-t-5 button-green no-shadow">Button Green</a>
+      <a class="col-2 col-t-5 button-warning no-shadow">Button Orange</a>
+      <a class="col-2 col-t-5 button-primary no-shadow">Button Blue</a>
+
+      <h3 class="col-12 center">Flat Buttons</h3>
+      <a class="col-2 col-t-5 button-danger flat-danger no-shadow">Button Red</a>
+      <a class="col-2 col-t-5 button-green flat-green no-shadow">Button Green</a>
+      <a class="col-2 col-t-5 button-warning flat-warning no-shadow">Button Orange</a>
+      <a class="col-2 col-t-5 button-primary flat-primary no-shadow">Button Blue</a>
+
+      <h3 class="col-12 center">Flat Buttons..Now with Icons</h3>
+      <a class="col-2 col-t-5 button-danger flat-danger no-shadow"><i class="material-icons">send</i>Button Red</a>
+      <a class="col-2 col-t-5 button-green flat-green no-shadow"><i class="material-icons">account_circle</i>Button Red</a>
+      <a class="col-2 col-t-5 button-warning flat-warning no-shadow"><i class="material-icons">fingerprint</i>Button Red</a>
+      <a class="col-2 col-t-5 button-primary flat-primary no-shadow"><i class="material-icons">local_pizza</i>Button Red</a>
+
+      <h3 class="col-12 center">Form Components</h3>
+        <form action="#">
+          <div class="col-12 input-text-field">
+            <input type="text" id="input-text-1"/>
+            <label for="input-text-1" class="left input-text">Nombre</label>
+          </div>
+          <div class="col-12 input-text-field">
+            <input type="text" disabled id="input-text-2" placeholder="Disabled text box"/>
+            <label for="input-text-2" class="left input-text">Disabled</label>
+          </div>
+          <div class="col-12 input-text-field">
+            <i class="material-icons">account_circle</i>
+            <input type="text" id="input-text-3"/>
+            <label for="input-text-3" class="left input-text">Input text with Icon</label>
+          </div>
+          <div class="col-12 checkbox-input">
+            <input type="checkbox" class="input-checkbox" id="check1"/>
+            <label for="check1">Enabled</label>
+          </div>
+          <div class="col-12 checkbox-input">
+            <input type="checkbox" class="input-checkbox" disabled id="check2"/>
+            <label for="check2">Disabled</label>
+          </div>
+          <div class="col-12 radio">
+            <input name="radio-button" type="radio" class="radio-button" id="radio1">
+            <label for="radio1">Radio Button 1</label>
+          </div>
+          <div class="col-12 radio-2">
+            <input name="radio-button" type="radio" class="radio-button" id="radio2">
+            <label for="radio2">Radio Button 2</label>
+          </div>
+          <div class="col-12 radio-3">
+            <input name="radio-button" type="radio" class="radio-button" id="radio3">
+            <label for="radio3">Radio Button 3</label>
+          </div>
+          <div class="col-12 radio-3">
+            <input name="radio-button" disabled type="radio" class="radio-button" id="radio4">
+            <label for="radio4">Radio Button Disabled</label>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>

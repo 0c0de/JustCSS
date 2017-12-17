@@ -31,4 +31,5 @@ Things that are more-less done:
   * Added a dropdown class which need to improve but goes in the correct way
   
 **Important in order to make animations works you will need animate.css(it's in dst folder) for the moment**
+
 Maybe the code isn't the cleanest code you ever saw but I think with time I will fix this bug 😏

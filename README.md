@@ -25,5 +25,10 @@ Things that are more-less done:
   * Custom Checkboxes (I like too)
 * Utilities
   * I added some helper classes like center text or align to the left or right anything
+* Navbar
+  * Added a navbar which respnds to mobile and desktop resolutions also has a sidenav
+* Dropdown
+  * Added a dropdown class which need to improve but goes in the correct way
   
+**Important in order to make animations works you will need animate.css(it's in dst folder) for the moment**
 Maybe the code isn't the cleanest code you ever saw but I think with time I will fix this bug 😏

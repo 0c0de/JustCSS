@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/rainbow-custom.min.js"></script>
+    <script src="js/JustCSS.js"></script>
+    <link rel="stylesheet" href="css/JustCSS.css" />
+    <link rel="stylesheet" href="css/github.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids in JustCSS</title>
+  </head>
+  <body>
+    <!-- Start nav and navbar -->
+    <nav>
+      <div class="dropdown show-in-desktop left">
+        <label>CSS</label>
+        <ul class="dropdown-content">
+          <li><a href="grid.html">Grids</a></li>
+          <li><a href="utilities.html">Utilities</a></li>
+          <li><a href="navbar.html">Navbar</a></li>
+        </ul>
+      </div>
+      <div class="dropdown show-in-desktop left">
+        <label>Forms</label>
+        <ul class="dropdown-content">
+          <li><a href="buttons.html">Buttons</a></li>
+          <li><a href="inputs.html">Inputs</a></li>
+        </ul>
+      </div>
+      <ul class="show-in-mobile left">
+        <li><a class="enable-nav"><i class="material-icons">menu</i></a></li>
+
+      </ul>
+      <ul class="show-in-mobile right">
+        <li><a href="index.html" class="logo">JustCSS</a></li>
+      </ul>
+      <ul class="mobile-navbar-menu">
+        <li class="parent">CSS</li>
+        <li class="child"><a href="grid.html">Grid</a></li>
+        <li class="child"><a href="utilities.html">Utilities</a></li>
+        <li class="child"><a href="navbar.html">Navbar</a></li>
+        <li class="parent">Forms</li>
+        <li class="child"><a href="buttons.html">Buttons</a></li>
+        <li class="child"><a href="inputs.html">Inputs</a></li>
+        <li class="parent">Contact</li>
+        <li class="child">No more please</li>
+      </ul>
+    </nav>
+    <!-- Ended the navbar -->
+    <!-- Grid  -->
+    <div class="grid-demo">
+      <h1 class="center">Grid Example</h1>
+      <p>As you can see grid is composed by 12 columns for initialise the first you need is <em>&lt;div class=&quot;row&quot;&gt;&lt;/div&gt;</em> then you just add columns using <em>&lt;div class=&quot;col-m-1&quot;&gt;&lt;/div&gt;</em> and goes from 1 to 12</p>
+      <div class="row">
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>1</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>2</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>3</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>4</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>5</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>6</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>7</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>8</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>9</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>10</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>11</p></div>
+        <div class="col-m-1 col-t-1 col-l-1" style="border: 1px solid black;"><p>12</p></div>
+      </div>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;1&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;2&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;3&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;4&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;5&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;6&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;7&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;8&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;9&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;10&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;11&lt;/p&gt;&lt;/div&gt;<br/>
+            &lt;div class=&quot;col-m-1 col-t-1 col-l-1&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;12&lt;/p&gt;&lt;/div&gt;<br/>
+          &lt;/div&gt;
+        </code>
+      </pre>
+      <h1 class="center">Because responsive rules</h1>
+      <p>We have three type of clases for responsive design "m" for mobile, "t" for tablet resolition, and "l" for desktop resolution, so, code will be like this<br><br>
+        <em>&lt;div class=&quot;col-m-1&quot;&gt;&lt;/div&gt;</em> for mobile resolutions or if you just don't want to make it responsive<br>
+        <em>&lt;div class=&quot;col-t-1&quot;&gt;&lt;/div&gt;</em> for tablets resolution<br>
+        <em>&lt;div class=&quot;col-l-1&quot;&gt;&lt;/div&gt;</em> for desktop resolutions or more </p>
+      <h2>A responsive column will be something like this</h2>
+      <div class="row">
+        <div class="col-l-3 col-m-4 col-t-4" style="border: 1px solid black;"><p>col-l-3 col-m-4 col-t-3</p></div>
+        <div class="col-l-4 col-m-4 col-t-4" style="border: 1px solid black;"><p>col-l-4 col-m-4 col-t-4</p></div>
+        <div class="col-l-5 col-m-4 col-t-4" style="border: 1px solid black;"><p>col-l-5 col-m-4 col-t-5</p></div>
+      </div>
+      <p><b>Code Used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-l-3 col-m-4 col-t-4&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-l-3 col-m-4 col-t-3&lt;/p&gt;&lt;/div&gt;
+            &lt;div class=&quot;col-l-4 col-m-4 col-t-4&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-l-4 col-m-4 col-t-4&lt;/p&gt;&lt;/div&gt;
+            &lt;div class=&quot;col-l-5 col-m-4 col-t-4&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-l-5 col-m-4 col-t-5&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+      <h2>While a non-responsive grid looks like this</h2>
+      <div class="row">
+        <div class="col-m-2" style="border: 1px solid black;"><p>col-m-2</p></div>
+        <div class="col-m-6" style="border: 1px solid black;"><p>col-m-6</p></div>
+        <div class="col-m-4" style="border: 1px solid black;"><p>col-m-4</p></div>
+      </div>
+      <p><b>Code Used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-m-2&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-m-2&lt;/p&gt;&lt;/div&gt;
+            &lt;div class=&quot;col-m-6&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-m-6&lt;/p&gt;&lt;/div&gt;
+            &lt;div class=&quot;col-m-4&quot; style=&quot;border: 1px solid black;&quot;&gt;&lt;p&gt;col-m-4&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+    </div>
+    <!-- Ended Grid -->
+  </body>
+</html>

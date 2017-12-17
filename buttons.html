@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buttons - Just CSS Framework</title>
+    <link rel="stylesheet" href="css/JustCSS.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/JustCSS.js"></script>
+    <script src="js/rainbow-custom.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/github.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- Start nav and navbar -->
+    <nav>
+      <div class="dropdown show-in-desktop left">
+        <label>CSS</label>
+        <ul class="dropdown-content">
+          <li><a href="grid.html">Grids</a></li>
+          <li><a href="utilities.html">Utilities</a></li>
+          <li><a href="navbar.html">Navbar</a></li>
+        </ul>
+      </div>
+      <div class="dropdown show-in-desktop left">
+        <label>Forms</label>
+        <ul class="dropdown-content">
+          <li><a href="buttons.html">Buttons</a></li>
+          <li><a href="inputs.html">Inputs</a></li>
+        </ul>
+      </div>
+      <ul class="show-in-desktop right">
+        <li><a href="index.html" class="logo">JustCSS</a></li>
+      </ul>
+      <ul class="show-in-mobile left">
+        <li><a class="enable-nav"><i class="material-icons">menu</i></a></li>
+      </ul>
+      <ul class="show-in-mobile right">
+        <li><a href="index.html" class="logo">JustCSS</a></li>
+      </ul>
+      <ul class="mobile-navbar-menu">
+        <li class="parent">CSS</li>
+        <li class="child"><a href="grid.html">Grid</a></li>
+        <li class="child"><a href="utilities.html">Utilities</a></li>
+        <li class="child"><a href="navbar.html">Navbar</a></li>
+        <li class="parent">Forms</li>
+        <li class="child"><a href="buttons.html">Buttons</a></li>
+        <li class="child"><a href="inputs.html">Inputs</a></li>
+        <li class="parent">Contact</li>
+        <li class="child">No more please</li>
+      </ul>
+    </nav>
+    <!-- Ended the navbar -->
+    <div class="forms row">
+      <h1 class="col-m-12 center">Forms components</h1>
+      <h3 class="col-m-12 center">Shadowed Buttons</h3>
+      <a class="col-m-2 col-l-2 col-t-5 center button-danger">Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-green">Button Green</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-warning">Button Orange</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-primary">Button Blue</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-purple">Button Purple</a>
+
+      <p class="col-m-12 left-align-text"><b>Code Used</b></p>
+      <pre class="center col-m-12 col-l-12 col-t-12">
+        <code data-language="html">
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-danger&quot;&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-green&quot;&gt;Button Green&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-warning&quot;&gt;Button Orange&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-primary&quot;&gt;Button Blue&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-purple&quot;&gt;Button Purple&lt;/a&gt;
+        </code>
+      </pre>
+
+      <h3 class="col-m-12 center">No shadowed Buttons</h3>
+      <a class="col-m-2 col-l-2 col-t-5 button-danger no-shadow">Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-green no-shadow">Button Green</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-warning no-shadow">Button Orange</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-primary no-shadow">Button Blue</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-purple no-shadow">Button Purple</a>
+
+      <p class="col-m-12 left-align-text"><b>Code Used</b></p>
+      <pre class="center col-m-12 col-l-12 col-t-12">
+        <code data-language="html">
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-danger no-shadow&quot;&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-green no-shadow&quot;&gt;Button Green&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-warning no-shadow&quot;&gt;Button Orange&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-primary no-shadow&quot;&gt;Button Blue&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-purple no-shadow&quot;&gt;Button Purple&lt;/a&gt;
+        </code>
+      </pre>
+
+      <h3 class="col-m-12 center">Flat Buttons</h3>
+      <a class="col-m-2 col-l-2 col-t-5 button-danger flat-danger no-shadow">Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-green flat-green no-shadow">Button Green</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-warning flat-warning no-shadow">Button Orange</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-primary flat-primary no-shadow">Button Blue</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-primary no-shadow flat-purple">Button Purple</a>
+
+      <p class="col-m-12 left-align-text"><b>Code Used</b></p>
+      <pre class="center col-m-12 col-l-12 col-t-12">
+        <code data-language="html">
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-danger flat-danger no-shadow&quot;&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-green flat-green no-shadow&quot;&gt;Button Green&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-warning flat-warning no-shadow&quot;&gt;Button Orange&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-primary flat-primary no-shadow&quot;&gt;Button Blue&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-primary no-shadow flat-purple&quot;&gt;Button Purple&lt;/a&gt;
+        </code>
+      </pre>
+
+      <h3 class="col-m-12 center">Flat Buttons..Now with Icons</h3>
+      <a class="col-m-2 col-l-2 col-t-5 button-danger flat-danger no-shadow"><i class="material-icons">send</i>Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-green flat-green no-shadow"><i class="material-icons">account_circle</i>Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-warning flat-warning no-shadow"><i class="material-icons">fingerprint</i>Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 button-primary flat-primary no-shadow"><i class="material-icons">local_pizza</i>Button Red</a>
+      <a class="col-m-2 col-l-2 col-t-5 center button-purple flat-purple no-shadow"><i class="material-icons">check</i>Button Purple</a>
+
+            <p class="col-m-12 left-align-text"><b>Code Used</b></p>
+      <pre class="center col-m-12 col-l-12 col-t-12">
+        <code data-language="html">
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-danger flat-danger no-shadow&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;send&lt;/i&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-green flat-green no-shadow&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;account_circle&lt;/i&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-warning flat-warning no-shadow&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;fingerprint&lt;/i&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 button-primary flat-primary no-shadow&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;local_pizza&lt;/i&gt;Button Red&lt;/a&gt;
+          &lt;a class=&quot;col-m-2 col-l-2 col-t-5 center button-purple flat-purple no-shadow&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;check&lt;/i&gt;Button Purple&lt;/a&gt;
+
+        </code>
+      </pre>
+    </div>
+  </body>
+</html>

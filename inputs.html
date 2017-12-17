@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/justCSS.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/justCSS.js"></script>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/github.css" />
+    <script src="js/rainbow-custom.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs - JustCSS</title>
+  </head>
+  <body>
+    <!-- Start nav and navbar -->
+    <nav>
+      <div class="dropdown show-in-desktop left">
+        <label>CSS</label>
+        <ul class="dropdown-content">
+          <li><a href="grid.html">Grids</a></li>
+          <li><a href="utilities.html">Utilities</a></li>
+          <li><a href="navbar.html">Navbar</a></li>
+        </ul>
+      </div>
+      <div class="dropdown show-in-desktop left">
+        <label>Forms</label>
+        <ul class="dropdown-content">
+          <li><a href="buttons.html">Buttons</a></li>
+          <li><a href="inputs.html">Inputs</a></li>
+        </ul>
+      </div>
+      <ul class="show-in-desktop right">
+        <li><a href="index.html" class="logo">JustCSS</a></li>
+      </ul>
+      <ul class="show-in-mobile left">
+        <li><a class="enable-nav"><i class="material-icons">menu</i></a></li>
+      </ul>
+      <ul class="show-in-mobile right">
+        <li><a href="index.html" class="logo">JustCSS</a></li>
+      </ul>
+      <ul class="mobile-navbar-menu">
+        <li class="parent">CSS</li>
+        <li class="child"><a href="grid.html">Grid</a></li>
+        <li class="child"><a href="utilities.html">Utilities</a></li>
+        <li class="child"><a href="navbar.html">Navbar</a></li>
+        <li class="parent">Forms</li>
+        <li class="child"><a href="buttons.html">Buttons</a></li>
+        <li class="child"><a href="inputs.html">Inputs</a></li>
+        <li class="parent">Contact</li>
+        <li class="child">No more please</li>
+      </ul>
+    </nav>
+    <!-- Ended the navbar -->
+    <h1 class="col-m-12 col-t-12 col-l-12 left">Normal Input Text</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-l-12 left input-text-field">
+          <input type="text" id="input-text-1"/>
+          <label for="input-text-1" class="left input-text">Name</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-l-12 left input-text-field&quot;&gt;
+              &lt;input type=&quot;text&quot; id=&quot;input-text-1&quot;/&gt;
+              &lt;label for=&quot;input-text-1&quot; class=&quot;left input-text&quot;&gt;Name&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Disabled Input Text</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left input-text-field">
+          <input type="text" disabled id="input-text-2" placeholder="Disabled text box"/>
+          <label for="input-text-2" class="left input-text">Disabled</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left input-text-field&quot;&gt;
+              &lt;input type=&quot;text&quot; disabled id=&quot;input-text-2&quot; placeholder=&quot;Disabled text box&quot;/&gt;
+              &lt;label for=&quot;input-text-2&quot; class=&quot;left input-text&quot;&gt;Disabled&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Input Text with Icon</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left input-text-field">
+          <i class="material-icons">account_circle</i>
+          <input type="text" id="input-text-3"/>
+          <label for="input-text-3" class="left input-text">User</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left input-text-field&quot;&gt;
+              &lt;i class=&quot;material-icons&quot;&gt;account_circle&lt;/i&gt;
+              &lt;input type=&quot;text&quot; id=&quot;input-text-3&quot;/&gt;
+              &lt;label for=&quot;input-text-3&quot; class=&quot;left input-text&quot;&gt;User&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Checkbox</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left checkbox-input">
+          <input type="checkbox" class="input-checkbox" id="check1"/>
+          <label for="check1">Enabled</label>
+        </div>
+        <div class="col-m-12 col-t-12 col-l-12 left checkbox-input">
+          <input type="checkbox" class="input-checkbox" checked id="check2"/>
+          <label for="check2">Filled-In</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left checkbox-input&quot;&gt;
+              &lt;input type=&quot;checkbox&quot; class=&quot;input-checkbox&quot; id=&quot;check1&quot;/&gt;
+              &lt;label for=&quot;check1&quot;&gt;Enabled&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left checkbox-input&quot;&gt;
+              &lt;input type=&quot;checkbox&quot; class=&quot;input-checkbox&quot; checked id=&quot;check2&quot;/&gt;
+              &lt;label for=&quot;check2&quot;&gt;Filled-In&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Checkbox disabled</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left checkbox-input">
+          <input type="checkbox" class="input-checkbox" disabled id="check3"/>
+          <label for="check3">Disabled</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left checkbox-input&quot;&gt;
+              &lt;input type=&quot;checkbox&quot; class=&quot;input-checkbox&quot; disabled id=&quot;check3&quot;/&gt;
+              &lt;label for=&quot;check3&quot;&gt;Disabled&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Radio Buttons</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left radio">
+          <input name="radio-button" type="radio" class="radio-button" id="radio1">
+          <label for="radio1">Radio Button 1</label>
+        </div>
+        <div class="col-m-12 col-t-12 col-l-12 left radio-2">
+          <input name="radio-button" type="radio" class="radio-button" id="radio2">
+          <label for="radio2">Radio Button 2</label>
+        </div>
+        <div class="col-m-12 col-t-12 col-l-12 left radio-3">
+          <input name="radio-button" type="radio" class="radio-button" id="radio3">
+          <label for="radio3">Radio Button 3</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left radio&quot;&gt;
+              &lt;input name=&quot;radio-button&quot; type=&quot;radio&quot; class=&quot;radio-button&quot; id=&quot;radio1&quot;&gt;
+              &lt;label for=&quot;radio1&quot;&gt;Radio Button 1&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left radio-2&quot;&gt;
+              &lt;input name=&quot;radio-button&quot; type=&quot;radio&quot; class=&quot;radio-button&quot; id=&quot;radio2&quot;&gt;
+              &lt;label for=&quot;radio2&quot;&gt;Radio Button 2&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left radio-3&quot;&gt;
+              &lt;input name=&quot;radio-button&quot; type=&quot;radio&quot; class=&quot;radio-button&quot; id=&quot;radio3&quot;&gt;
+              &lt;label for=&quot;radio3&quot;&gt;Radio Button 3&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+      <h1 class="col-m-12 col-t-12 col-l-12 left">Radio Button Disabled</h1>
+      <form class="col-m-12 col-t-12 col-l-12 left" action="#">
+        <div class="col-m-12 col-t-12 col-l-12 left radio-4">
+          <input name="radio-button" disabled type="radio" class="radio-button" id="radio4">
+          <label for="radio4">Radio Button Disabled</label>
+        </div>
+      </form>
+      <p><b>Code used</b></p>
+      <pre>
+        <code data-language="html">
+          &lt;form class=&quot;col-m-12 col-t-12 col-l-12 left&quot; action=&quot;#&quot;&gt;
+            &lt;div class=&quot;col-m-12 col-t-12 col-l-12 left radio-4&quot;&gt;
+              &lt;input name=&quot;radio-button&quot; disabled type=&quot;radio&quot; class=&quot;radio-button&quot; id=&quot;radio4&quot;&gt;
+              &lt;label for=&quot;radio4&quot;&gt;Radio Button Disabled&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        </code>
+      </pre>
+  </body>
+</html>

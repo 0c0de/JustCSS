@@ -24,7 +24,7 @@ $(document).ready(function(){
     }
     icon.removeClass('animated rotateIn');
   });
-
+  $('nav').css('z-index', 9999);
   $('div.dropdown label').append('<i style="padding-right:10%; position:relative;  line-height:1.3rem;" class="material-icons right">keyboard_arrow_down</i>');
   var num = 0;
   $('div.dropdown').each(function(){

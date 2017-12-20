@@ -86,7 +86,9 @@ nav{
   background-color: #8870FF;
   width: 100%;
   line-height: 60px;
-
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 nav ul{

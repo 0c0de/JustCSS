@@ -14,62 +14,64 @@
   <body>
     <!-- Start nav and navbar -->
     <nav>
-      <div class="dropdown show-in-desktop left">
-        <label>CSS</label>
-        <ul class="dropdown-content">
-          <li><a href="grid.html">Grids</a></li>
-          <li><a href="utilities.html">Utilities</a></li>
-          <li><a href="navbar.html">Navbar</a></li>
+      <div class="nav-wrapper">
+        <div class="dropdown show-in-desktop left">
+          <label>CSS</label>
+          <ul class="dropdown-content">
+            <li><a href="grid.html">Grids</a></li>
+            <li><a href="utilities.html">Utilities</a></li>
+            <li><a href="navbar.html">Navbar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown show-in-desktop left">
+          <label>Forms</label>
+          <ul class="dropdown-content">
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="inputs.html">Inputs</a></li>
+          </ul>
+        </div>
+        <ul class="show-in-desktop right">
+          <li><a href="index.html" class="logo">JustCSS</a></li>
+        </ul>
+        <ul class="show-in-mobile left">
+          <li><a class="enable-nav"><i class="material-icons">menu</i></a></li>
+        </ul>
+        <ul class="show-in-mobile right">
+          <li><a href="index.html" class="logo">JustCSS</a></li>
+        </ul>
+        <ul class="mobile-navbar-menu">
+          <li class="parent">CSS</li>
+          <li class="child"><a href="grid.html">Grid</a></li>
+          <li class="child"><a href="utilities.html">Utilities</a></li>
+          <li class="child"><a href="navbar.html">Navbar</a></li>
+          <li class="parent">Forms</li>
+          <li class="child"><a href="buttons.html">Buttons</a></li>
+          <li class="child"><a href="inputs.html">Inputs</a></li>
+          <li class="parent">Contact</li>
+          <li class="child">No more please</li>
         </ul>
       </div>
-      <div class="dropdown show-in-desktop left">
-        <label>Forms</label>
-        <ul class="dropdown-content">
-          <li><a href="buttons.html">Buttons</a></li>
-          <li><a href="inputs.html">Inputs</a></li>
-        </ul>
-      </div>
-      <ul class="show-in-desktop right">
-        <li><a href="index.html" class="logo">JustCSS</a></li>
-      </ul>
-      <ul class="show-in-mobile left">
-        <li><a class="enable-nav"><i class="material-icons">menu</i></a></li>
-      </ul>
-      <ul class="show-in-mobile right">
-        <li><a href="index.html" class="logo">JustCSS</a></li>
-      </ul>
-      <ul class="mobile-navbar-menu">
-        <li class="parent">CSS</li>
-        <li class="child"><a href="grid.html">Grid</a></li>
-        <li class="child"><a href="utilities.html">Utilities</a></li>
-        <li class="child"><a href="navbar.html">Navbar</a></li>
-        <li class="parent">Forms</li>
-        <li class="child"><a href="buttons.html">Buttons</a></li>
-        <li class="child"><a href="inputs.html">Inputs</a></li>
-        <li class="parent">Contact</li>
-        <li class="child">No more please</li>
-      </ul>
     </nav>
     <!-- Ended the navbar -->
     <div class="row">
-      <h1 class="col-m-12 col-t-12 col-d-12 center animated bounceIn">This is JustCSS!</h1>
-      <div class="col-m-12 col-t-12 col-d-12 left animated pulse">
-        <h3>Thanks for trying this new CSS framework, I'm really proud of what I'm achieving.
+      <h1 class="col-m-12 col-t-12 col-l-12 center animated bounceIn">This is JustCSS!</h1>
+      <div class="col-m-12 col-t-12 col-l-12 left animated pulse">
+        <h3 class="col-m-12 col-t-12 col-l-12">Thanks for trying this new CSS framework, I'm really proud of what I'm achieving.
         Actually there is no documentation so i will try to comment in my free time.</h3>
-        <h3>How to install JustCSS(if you want to try it):</h3>
-        <a class="button-purple" href="https://github.com/0c0de/JustCSS/archive/master.zip" target="_blank">Download all neccesary</a>
-        <h3>After you downloaded all, copy all from "dst" folder to you poject folder</h3>
-        <h3>Now in your html file you have to have to add the following</h3>
-        <pre>
-          <code data-language="html">
+        <h3 class="col-m-12 col-t-12 col-l-12">How to install JustCSS(if you want to try it):</h3>
+        <a class="col-m-12 col-t-2 col-l-1 button-purple" href="https://github.com/0c0de/JustCSS/archive/master.zip" target="_blank"><i class="left material-icons">file_download</i>Download all neccesary</a>
+        <h3 class="col-m-12 col-t-12 col-l-12">After you downloaded all, copy all from "dst" folder to you poject folder</h3>
+        <h3 class="col-m-12 col-t-12 col-l-12">Now in your html file you have to have to add the following</h3>
+        <pre class="col-m-12 col-t-12 col-l-12" style="overflow-x:scroll !important;">
+          <code style="width:auto !important;" data-language="html">
             &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;
             &lt;link rel=&quot;stylesheet&quot; href=&quot;css/animate.css&quot; /&gt;
-            &lt;script src=&quot;js/JustCSS.js&quot;&gt;&lt;/script&gt;
-            &lt;link rel=&quot;stylesheet&quot; href=&quot;css/JustCSS.css&quot; /&gt;
+            &lt;script src=&quot;js/justCSS.js&quot;&gt;&lt;/script&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;css/justCSS.css&quot; /&gt;
           </code>
         </pre>
-        <h2 style="color:red;">Please Note that Animate.css is needed because of thew animations, this is temporal and jQuery because for navbar and dropdown I used jQuery</h2>
-        <h3>Then just follow the documentation, and thank you for trying</h3>
+        <h2 class="col-m-12 col-t-12 col-l-12" style="color:red;">Please Note that Animate.css is needed because of thew animations, this is temporal and jQuery because for navbar and dropdown I used jQuery</h2>
+        <h3 class="col-m-12 col-t-12 col-l-12">Then just follow the documentation, and thank you for trying</h3>
       </div>
     </div>
   </body>

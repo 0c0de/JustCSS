@@ -14,12 +14,13 @@ em{
   font-weight: 500;
 }
 
-pre{
-	overflow-x: scroll;
+pre code{
+  overflow-x: scroll;
+  z-index: 0 !important;
 }
 
 body{
-	  margin: 0 !important;
+    margin: 0 !important;
 }
 
 a{
@@ -51,11 +52,11 @@ div.dropdown{
   padding: 0;
   line-height: 25px;
   text-align: center;
-  z-index: 9999999;
+  z-index: 99999;
 }
 
 div.dropdown < i{
-	position: relative;
+  position: relative;
 }
 
 div.dropdown ul.dropdown-content{
@@ -65,7 +66,7 @@ div.dropdown ul.dropdown-content{
   width: 100%;
   overflow-y: auto;
   height: auto !important;
-  z-index: 99999999;
+  z-index: 999;
 }
 
 div.dropdown ul.dropdown-content > li a{
@@ -73,7 +74,7 @@ div.dropdown ul.dropdown-content > li a{
   position: relative;
   padding: 10px 0px;
   right: 60px;
-  z-index: 999999;
+  z-index: 9999;
 }
 
 div.dropdown ul.dropdown-content > li:hover a{
@@ -89,21 +90,23 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999999;
 }
 
 nav ul{
   display: inline-block;
   color: white !important;
-  overflow: hidden;
   list-style: none;
+  overflow: hidden;
   width: 8.33%
   height:auto;
+  z-index: 99;
 }
 
 nav ul li{
   float: left;
   margin: 0px 30px;
-  z-index: 9999999;
+  z-index: 9;
 }
 
 .mobile-navbar-menu{
@@ -115,7 +118,7 @@ nav ul li{
   left: 0px;
   float: left !important;
   background-color: #8870FF;
-  z-index: 9999;
+  z-index: 999999;
 }
 
 li.parent{
